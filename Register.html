@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="shortcut icon" href="images/Artboard 34.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="allRegister">
+        <div class="register">
+            <div class="return">
+                <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+            </div>
+            <div class="Iconlogo">
+                <img src="images/Icon-color.png" alt="">
+            </div>
+            <div class="title-txt">
+
+                <div class="title login"> <h4>Login</h4></div>
+                <div class="title signup"> <h4>Sign Up</h4></div>
+            </div>
+            <div class="form-container">
+                <div class="slide-control">
+                    <input type="radio" name="slider" id="login" checked>
+                    <input type="radio" name="slider" id="signup">
+                    <label for="login" class="slide login"> Login </label>
+                    <label for="signup" class="slide signup"> Signup </label>
+                    <div class="slide-tab"></div>
+                </div>
+                <div class="form-inner">
+                    <!-- Login -->
+                    <form action="#" class="login" id="login"> 
+                        <div class="field">
+                            <input type="text" placeholder="Your Email Adress" required>
+                        </div>
+
+                        <div class="field">
+                            <input type="password" placeholder="Your password" required>
+                        </div>
+                        <div class="passLink">
+                            <a href="#">Forget Password?</a>
+                        </div>
+                        <div class="field">
+                            <input type="submit" value="Login" >
+                        </div>
+                    </form>
+                    <!-- Login -->
+                    <!-- SignUp -->
+                    <form action="#" class="signup" id="signup"> 
+                        <div class="field">
+                            <input type="text" placeholder="Your Email Adress" required>
+                        </div>
+
+                        <div class="field">
+                            <input type="password" placeholder="Your password" required>
+                        </div>
+                        <div class="field">
+                            <input type="password" placeholder="Confirm your password" required>
+                        </div>
+
+                        <div class="field">
+                            <input type="submit" value="Sign Up" >
+                        </div>
+                    </form>
+                    <!-- SignUp -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/RegisterForm.js">
+
+
+    </script>
+
+</body>
+</html>
